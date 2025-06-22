@@ -1,7 +1,5 @@
-# Company Website
-
-# Project Run Command
+# Run Project
 npm run start
 
-# Project Build Creation for Production
+# Build Project
 npm run build
