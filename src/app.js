@@ -12,15 +12,23 @@ import Careers from './components/company/careers.jsx';
 import ItServices from './components/solutions/services/it-services.jsx';
 import ItServiceDetails from './components/solutions/services/it-service-details.jsx';
 
-import ManagedItServices from './components/solutions/managed-it-services.jsx';
-import Industries from './components/solutions/industries.jsx';
-import BusinessSolution from './components/solutions/business-solution.jsx';
-
 import CaseStudies from './components/case-studies/case-studies.jsx';
 import CaseStudyDetails from './components/case-studies/case-study-details.jsx';
 
 import Blogs from './components/blogs/blogs.jsx';
 import BlogDetails from './components/blogs/blog-details.jsx';
+
+import ManagedItServices from './components/solutions/services/managed-it-services.jsx';
+import BusinessSolution from './components/solutions/services/business-solution.jsx';
+import Industries from './components/solutions/services/industries.jsx';
+
+import AIAndMLServices from './components/solutions/ai-ml-solutions.jsx';
+import AnalyticsAndBIServices from './components/solutions/analytics-bi-solutions.jsx';
+import CloudServices from './components/solutions/cloud-solutions.jsx';
+import DataQualityAndGovernanceServices from './components/solutions/data-quality-governance-solution.jsx';
+import FinancialTechnologyServices from './components/solutions/financial-technology-solutions.jsx';
+import ReconciliationPlatformsServices from './components/solutions/reconciliation-platforms-solutions.jsx';
+import RegulatoryAndComplianceServices from './components/solutions/regulatory-compliance-solutions.jsx';
 
 function App() {
   return (
@@ -43,9 +51,17 @@ function App() {
           <Route path="/solutions-industries" element={<Industries />} />
           <Route path="/solutions-business-solution" element={<BusinessSolution />} />
 
+          <Route path="/solutions-AI-ML" element={<AIAndMLServices />} />
+          <Route path="/solutions-analytics-BI" element={<AnalyticsAndBIServices />} />
+          <Route path="/solutions-cloud" element={<CloudServices />} />
+          <Route path="/solutions-data-quality-and-governance" element={<DataQualityAndGovernanceServices />} />
+          <Route path="/solutions-financial-technology" element={<FinancialTechnologyServices />} />
+          <Route path="/solutions-reconciliation-platforms" element={<ReconciliationPlatformsServices />} />
+          <Route path="/solutions-regulatory-and-compliance" element={<RegulatoryAndComplianceServices />} />
+
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/case-study-details" element={<CaseStudyDetails />} />
-          
+
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog-details" element={<BlogDetails />} />
         </Routes>

@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 // components
-import Header from '../shared/header.jsx';
-import Footer from "../shared/footer.jsx";
+import Header from '../../shared/header.jsx';
+import Footer from "../../shared/footer.jsx";
 
 export default function ManagedItServices() {
   return (
@@ -34,8 +34,8 @@ export default function ManagedItServices() {
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-12">
-                      <h3 class="text-3xl font-bold mb-6 text-center">Modern Data Engineering Solutions</h3>
-                      <p class="text-lg text-gray-600 mb-12 text-center">
+                      <h3 className="text-3xl font-bold mb-6 text-center">Modern Data Engineering Solutions</h3>
+                      <p className="text-lg text-gray-600 mb-12 text-center">
                         Build resilient, scalable, and high-performance data infrastructure to support your analytics, AI, and regulatory goals.
                       </p> <br /> <br />
                     </div>
@@ -48,15 +48,15 @@ export default function ManagedItServices() {
                           <div className="title-wrap">
                             <h5 className="title">ETL/ELT Design & Implementation </h5>
                             <div className="desc">
-                              <p class="text-gray-700 mb-3">Design and implement robust ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) pipelines tailored to your data sources, business logic, and target systems.</p>
-                              <ul class="list-disc list-inside mb-3">
+                              <p className="text-gray-700 mb-3">Design and implement robust ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) pipelines tailored to your data sources, business logic, and target systems.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Data extraction from databases, APIs, files, third-party platforms</li>
                                 <li>Data transformation (cleaning, mapping, typecasting, validation)</li>
                                 <li>Load to RDBMS, data lakes, or data warehouses (Snowflake, BigQuery, etc.)</li>
                                 <li>Parallel processing, incremental loading, CDC (Change Data Capture)</li>
                                 <li>Integration with Apache Airflow, AWS Glue, Azure Data Factory, dbt</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: 60–80% reduction in manual processing, improved data accuracy, scalable pipelines.</p>
+                              <p className="text-gray-600 italic">Outcomes: 60–80% reduction in manual processing, improved data accuracy, scalable pipelines.</p>
                             </div>
                           </div>
                         </div>
@@ -65,15 +65,15 @@ export default function ManagedItServices() {
                           <div className="title-wrap">
                             <h5 className="title"> Data Lake Architecture & Setup </h5>
                             <div className="desc">
-                              <p class="text-gray-700 mb-3">Design and implement modern cloud or on-premises data lakes to centralize structured and unstructured data.</p>
-                              <ul class="list-disc list-inside mb-3">
+                              <p className="text-gray-700 mb-3">Design and implement modern cloud or on-premises data lakes to centralize structured and unstructured data.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Lakehouse architecture design (Delta Lake, Apache Iceberg, Hudi)</li>
                                 <li>Storage layer setup (S3, Azure Blob, HDFS)</li>
                                 <li>Raw, staged, and curated zones</li>
                                 <li>Metadata management with Apache Hive, AWS Glue Catalog</li>
                                 <li>Access control and governance integration</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Unified, scalable storage; analytics-ready data; lower storage costs.</p>
+                              <p className="text-gray-600 italic">Outcomes: Unified, scalable storage; analytics-ready data; lower storage costs.</p>
 
                             </div>
                           </div>
@@ -83,15 +83,15 @@ export default function ManagedItServices() {
                           <div className="title-wrap">
                             <h5 className="title">Other Capabilities</h5>
                             <div className="desc">
-                              <ul class="list-disc list-inside mb-3">
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Monitoring & Observability (Prometheus, Grafana, or custom)</li>
                                 <li>Data Catalog & Lineage Tools (Amundsen, DataHub)</li>
                                 <li>CI/CD for Pipelines (GitOps, dbt Cloud, container-based workflows)</li>
                               </ul>
 
                               {/* CTA Button */}
-                              <div class="text-center mt-12">
-                                <a href="/contact" class="inline-block bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
+                              <div className="text-center mt-12">
+                                <a href="/contact" className="inline-block bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
                                   Talk to a Data Engineer
                                 </a>
                               </div>
@@ -107,14 +107,14 @@ export default function ManagedItServices() {
                           <div className="title-wrap">
                             <h5 className="title">Batch Data Processing </h5>
                             <div className="desc">
-                              <p class="text-gray-700 mb-3">Set up and manage batch processing systems for high-volume, scheduled, or heavy-lift data workloads.</p>
-                              <ul class="list-disc list-inside mb-3">
+                              <p className="text-gray-700 mb-3">Set up and manage batch processing systems for high-volume, scheduled, or heavy-lift data workloads.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Batch pipelines using Spark, Pandas, SQL, PySpark</li>
                                 <li>Orchestration with Apache Airflow, Prefect, Dagster</li>
                                 <li>Integration with file systems, FTP, S3, databases</li>
                                 <li>SLA-based retry, alerting, and audit logging setup</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Reliable automation, resource-optimized workloads, traceable data flows.</p>
+                              <p className="text-gray-600 italic">Outcomes: Reliable automation, resource-optimized workloads, traceable data flows.</p>
                             </div>
                           </div>
                         </div>
@@ -124,15 +124,15 @@ export default function ManagedItServices() {
                           <div className="title-wrap">
                             <h5 className="title">Real-Time Data Streaming </h5>
                             <div className="desc">
-                              <p class="text-gray-700 mb-3">Enable low-latency data movement and processing to power dashboards, alerts, and decision engines.</p>
-                              <ul class="list-disc list-inside mb-3">
+                              <p className="text-gray-700 mb-3">Enable low-latency data movement and processing to power dashboards, alerts, and decision engines.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Event-driven architecture with Apache Kafka, AWS Kinesis, Azure Event Hubs</li>
                                 <li>Stream processing with Flink, Spark Streaming, Kafka Streams</li>
                                 <li>Real-time ingestion from APIs, logs, IoT, and applications</li>
                                 <li>Stream-to-lake and stream-to-warehouse integration</li>
                                 <li>Windowing, watermarking, and late data handling</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Live dashboards, faster decision-making, real-time alerts.</p>
+                              <p className="text-gray-600 italic">Outcomes: Live dashboards, faster decision-making, real-time alerts.</p>
                             </div>
                           </div>
                         </div>
@@ -148,10 +148,10 @@ export default function ManagedItServices() {
                   <div className="cybersecurity-about-box">
 
                     <div className="row">
-                      <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                        <div class="container max-w-7xl mx-auto px-4">
-                          <h3 class="text-3xl font-bold mb-6 text-center">Modern Data Engineering Solutions</h3>
-                          <p class="text-lg text-gray-600 mb-12 text-center">
+                      <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                        <div className="container max-w-7xl mx-auto px-4">
+                          <h3 className="text-3xl font-bold mb-6 text-center">Modern Data Engineering Solutions</h3>
+                          <p className="text-lg text-gray-600 mb-12 text-center">
                             Build resilient, scalable, and high-performance data infrastructure to support your analytics, AI, and regulatory goals.
                           </p> <br /> <br />
                         </div>
@@ -165,21 +165,21 @@ export default function ManagedItServices() {
                         </div>
                       </div>
                       <div className="col-lg-7 offset-lg-1">
-                        <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                          <div class="container max-w-7xl mx-auto px-4">
+                        <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                          <div className="container max-w-7xl mx-auto px-4">
 
                             {/* ETL/ELT Design */}
-                            <div class="mb-10">
-                              <h5 class="text-2xl font-semibold mb-2">1. ETL/ELT Design & Implementation</h5>
-                              <p class="text-gray-700 mb-3">Design and implement robust ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) pipelines tailored to your data sources, business logic, and target systems.</p>
-                              <ul class="list-disc list-inside mb-3">
+                            <div className="mb-10">
+                              <h5 className="text-2xl font-semibold mb-2">1. ETL/ELT Design & Implementation</h5>
+                              <p className="text-gray-700 mb-3">Design and implement robust ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) pipelines tailored to your data sources, business logic, and target systems.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Data extraction from databases, APIs, files, third-party platforms</li>
                                 <li>Data transformation (cleaning, mapping, typecasting, validation)</li>
                                 <li>Load to RDBMS, data lakes, or data warehouses (Snowflake, BigQuery, etc.)</li>
                                 <li>Parallel processing, incremental loading, CDC (Change Data Capture)</li>
                                 <li>Integration with Apache Airflow, AWS Glue, Azure Data Factory, dbt</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: 60–80% reduction in manual processing, improved data accuracy, scalable pipelines.</p>
+                              <p className="text-gray-600 italic">Outcomes: 60–80% reduction in manual processing, improved data accuracy, scalable pipelines.</p>
                             </div> <br /> <br /> <br />
 
                           </div>
@@ -194,21 +194,21 @@ export default function ManagedItServices() {
                         </div>
                       </div>
                       <div className="col-lg-7 offset-lg-1">
-                        <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                          <div class="container max-w-7xl mx-auto px-4">
+                        <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                          <div className="container max-w-7xl mx-auto px-4">
 
                             {/* Data Lake Setup */}
-                            <div class="mb-10">
-                              <h5 class="text-2xl font-semibold mb-2">2. Data Lake Architecture & Setup</h5>
-                              <p class="text-gray-700 mb-3">Design and implement modern cloud or on-premises data lakes to centralize structured and unstructured data.</p>
-                              <ul class="list-disc list-inside mb-3">
+                            <div className="mb-10">
+                              <h5 className="text-2xl font-semibold mb-2">2. Data Lake Architecture & Setup</h5>
+                              <p className="text-gray-700 mb-3">Design and implement modern cloud or on-premises data lakes to centralize structured and unstructured data.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Lakehouse architecture design (Delta Lake, Apache Iceberg, Hudi)</li>
                                 <li>Storage layer setup (S3, Azure Blob, HDFS)</li>
                                 <li>Raw, staged, and curated zones</li>
                                 <li>Metadata management with Apache Hive, AWS Glue Catalog</li>
                                 <li>Access control and governance integration</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Unified, scalable storage; analytics-ready data; lower storage costs.</p>
+                              <p className="text-gray-600 italic">Outcomes: Unified, scalable storage; analytics-ready data; lower storage costs.</p>
                             </div> <br /> <br /> <br />
 
                           </div>
@@ -223,21 +223,21 @@ export default function ManagedItServices() {
                         </div>
                       </div>
                       <div className="col-lg-7 offset-lg-1">
-                        <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                          <div class="container max-w-7xl mx-auto px-4">
+                        <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                          <div className="container max-w-7xl mx-auto px-4">
 
                             {/* Real-Time Streaming */}
-                            <div class="mb-10">
-                              <h5 class="text-2xl font-semibold mb-2">3. Real-Time Data Streaming</h5>
-                              <p class="text-gray-700 mb-3">Enable low-latency data movement and processing to power dashboards, alerts, and decision engines.</p>
-                              <ul class="list-disc list-inside mb-3">
+                            <div className="mb-10">
+                              <h5 className="text-2xl font-semibold mb-2">3. Real-Time Data Streaming</h5>
+                              <p className="text-gray-700 mb-3">Enable low-latency data movement and processing to power dashboards, alerts, and decision engines.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Event-driven architecture with Apache Kafka, AWS Kinesis, Azure Event Hubs</li>
                                 <li>Stream processing with Flink, Spark Streaming, Kafka Streams</li>
                                 <li>Real-time ingestion from APIs, logs, IoT, and applications</li>
                                 <li>Stream-to-lake and stream-to-warehouse integration</li>
                                 <li>Windowing, watermarking, and late data handling</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Live dashboards, faster decision-making, real-time alerts.</p>
+                              <p className="text-gray-600 italic">Outcomes: Live dashboards, faster decision-making, real-time alerts.</p>
                             </div> <br /> <br /> <br />
 
                           </div>
@@ -252,20 +252,20 @@ export default function ManagedItServices() {
                         </div>
                       </div>
                       <div className="col-lg-7 offset-lg-1">
-                        <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                          <div class="container max-w-7xl mx-auto px-4">
+                        <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                          <div className="container max-w-7xl mx-auto px-4">
 
                             {/* Batch Processing */}
-                            <div class="mb-10">
-                              <h5 class="text-2xl font-semibold mb-2">4. Batch Data Processing</h5>
-                              <p class="text-gray-700 mb-3">Set up and manage batch processing systems for high-volume, scheduled, or heavy-lift data workloads.</p>
-                              <ul class="list-disc list-inside mb-3">
+                            <div className="mb-10">
+                              <h5 className="text-2xl font-semibold mb-2">4. Batch Data Processing</h5>
+                              <p className="text-gray-700 mb-3">Set up and manage batch processing systems for high-volume, scheduled, or heavy-lift data workloads.</p>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Batch pipelines using Spark, Pandas, SQL, PySpark</li>
                                 <li>Orchestration with Apache Airflow, Prefect, Dagster</li>
                                 <li>Integration with file systems, FTP, S3, databases</li>
                                 <li>SLA-based retry, alerting, and audit logging setup</li>
                               </ul>
-                              <p class="text-gray-600 italic">Outcomes: Reliable automation, resource-optimized workloads, traceable data flows.</p>
+                              <p className="text-gray-600 italic">Outcomes: Reliable automation, resource-optimized workloads, traceable data flows.</p>
                             </div> <br /> <br /> <br />
 
                           </div>
@@ -280,13 +280,13 @@ export default function ManagedItServices() {
                         </div>
                       </div>
                       <div className="col-lg-7 offset-lg-1">
-                        <section id="data-engineering" class="py-16 bg-white text-gray-800">
-                          <div class="container max-w-7xl mx-auto px-4">
+                        <section id="data-engineering" className="py-16 bg-white text-gray-800">
+                          <div className="container max-w-7xl mx-auto px-4">
 
                             {/* Optional Add-ons */}
-                            <div class="mb-10">
-                              <h5 class="text-xl font-semibold mb-2">5. Other Capabilities</h5>
-                              <ul class="list-disc list-inside mb-3">
+                            <div className="mb-10">
+                              <h5 className="text-xl font-semibold mb-2">5. Other Capabilities</h5>
+                              <ul className="list-disc list-inside mb-3">
                                 <li>Monitoring & Observability (Prometheus, Grafana, or custom)</li>
                                 <li>Data Catalog & Lineage Tools (Amundsen, DataHub)</li>
                                 <li>CI/CD for Pipelines (GitOps, dbt Cloud, container-based workflows)</li>
@@ -294,8 +294,8 @@ export default function ManagedItServices() {
                             </div>
 
                             {/* CTA Button */}
-                            <div class="text-center mt-12">
-                              <a href="/contact" class="inline-block bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
+                            <div className="text-center mt-12">
+                              <a href="/contact" className="inline-block bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">
                                 Talk to a Data Engineer
                               </a>
                             </div>

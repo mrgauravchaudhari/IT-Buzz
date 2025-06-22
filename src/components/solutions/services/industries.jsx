@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 // components
-import Header from '../shared/header.jsx';
-import Footer from "../shared/footer.jsx";
+import Header from '../../shared/header.jsx';
+import Footer from "../../shared/footer.jsx";
 
 export default function Industries() {
   return (

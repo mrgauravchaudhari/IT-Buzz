@@ -55,7 +55,7 @@ export default function CaseStudies() {
                   </div>
                   <div className="projects-case-wrap">
                     <div className="row mesonry-list">
-                      {/*<div class="resizer"></div>*/}
+                      {/*<div className="resizer"></div>*/}
                       <div className="col-lg-4 col-md-6 cat--2">
                         {/* Projects Wrap Start */}
                         <Link to="/case-study-details" className="projects-wrap style-2">
