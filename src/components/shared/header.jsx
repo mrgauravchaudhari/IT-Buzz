@@ -207,6 +207,7 @@ export default function Header() {
                             </li>
                             <li
                               className={
+                                location.pathname === "/solutions-tech" ||
                                 location.pathname === "/solutions-AI-ML" ||
                                 location.pathname === "/solutions-analytics-BI" ||
                                 location.pathname === "/solutions-cloud" ||
@@ -226,6 +227,11 @@ export default function Header() {
                                                                 <li><Link to="/solutions-managed-it-services"><span>Managed IT Services</span></Link></li>
                                                                 <li><Link to="/solutions-industries"><span>Industries</span></Link></li>
                                                                 <li><Link to="/solutions-business-solution"><span>Business solution</span></Link></li> */}
+                                <li className={location.pathname === "/solutions-tech" ? "active" : ""}>
+                                  <Link to="/solutions-tech">
+                                    <span>Tech Solutions</span>
+                                  </Link>
+                                </li>
                                 <li className={location.pathname === "/solutions-AI-ML" ? "active" : ""}>
                                   <Link to="/solutions-AI-ML">
                                     <span>AI & ML Solutions</span>

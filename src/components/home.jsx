@@ -47,137 +47,6 @@ export default function Home() {
             </div>
             {/*============ Software Innovation Hero End ============*/}
 
-            {/*===========  Projects wrapper Start =============*/}
-            <div className="projects-wrapper section-space--ptb_100">
-              <div className="container">
-                <div className="row">
-                  <div className="col-12">
-                    <div className="projects-wrap">
-                      <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                          {/* Projects Wrap Start */}
-                          <a href="#" className="projects-wrap style-04 wow move-up">
-                            <div className="projects-image-box">
-                              <div className="projects-image">
-                                <div className="image">
-                                  <img className="img-fluid" src="images/icons/soft-s1-01-120x120.webp" alt="BITS" />
-                                </div>
-                              </div>
-                              <div className="content text-center">
-                                <h5 className="heading">Business &amp; Finance</h5>
-                                <div className="text">Lorem dolor sit amet, consectetur elit. Suspeo sitea. spe ndisse suscipit sagittis leo sitea rem ipsum dolor sit</div>
-                                <div className="box-projects-arrow">
-                                  <span className="button-text">Discover now</span>
-                                  <i className="fas fa-arrow-right ml-1" />
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          {/* Projects Wrap End */}
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                          {/* Projects Wrap Start */}
-                          <a href="#" className="projects-wrap style-04 wow move-up">
-                            <div className="projects-image-box">
-                              <div className="projects-image">
-                                <div className="image">
-                                  <img className="img-fluid" src="images/icons/soft-s1-02-120x120.webp" alt="BITS" />
-                                </div>
-                              </div>
-                              <div className="content text-center">
-                                <h5 className="heading">Gaming &amp; Enterteinment</h5>
-                                <div className="text">Lorem dolor sit amet, consectetur elit. Suspeo sitea. spe ndisse suscipit sagittis leo sitea rem ipsum dolor sit</div>
-                                <div className="box-projects-arrow">
-                                  <span className="button-text">Discover now</span>
-                                  <i className="fas fa-arrow-right ml-1" />
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          {/* Projects Wrap End */}
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                          {/* Projects Wrap Start */}
-                          <a href="#" className="projects-wrap style-04 wow move-up">
-                            <div className="projects-image-box">
-                              <div className="projects-image">
-                                <div className="image">
-                                  <img className="img-fluid" src="images/icons/soft-s1-03-120x120.webp" alt="BITS" />
-                                </div>
-                              </div>
-                              <div className="content text-center">
-                                <h5 className="heading">Information Technology</h5>
-                                <div className="text">Lorem dolor sit amet, consectetur elit. Suspeo sitea. spe ndisse suscipit sagittis leo sitea rem ipsum dolor sit</div>
-                                <div className="box-projects-arrow">
-                                  <span className="button-text">Discover now</span>
-                                  <i className="fas fa-arrow-right ml-1" />
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                          {/* Projects Wrap End */}
-                        </div>
-                      </div>
-                    </div>
-                    <div className="section-under-heading text-center section-space--mt_40">
-                      Stop wasting time and money on technology. <a href="#">Let’s get started</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*===========  Projects wrapper End =============*/}
-
-            {/*=========== About Company Area Start ==========*/}
-            <div className="software-innovation-about-company-area software-innovation-about-bg section-space--ptb_120">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="image-inner-video-section">
-                      <img className="img-fluid border-radus-5" src="images/banners/soft-s2-01.webp" alt="BITS" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 ms-auto mt-30">
-                    <div className="machine-learning-about-content">
-                      <div className="section-title mb-20">
-                        {/* section-title-wrap Start */}
-                        <div className="section-title-wrap text-left section-space--mb_30">
-                          <h6 className="section-sub-title mb-20">INDUSTRIES WE SERVE</h6>
-                          <h3 className="heading">
-                            For your very specific industry, we <span className="text-color-primary">have highly-tailored IT solutions.</span>
-                          </h3>
-                        </div>
-                        {/* section-title-wrap Start */}
-                        <p className="dec-text mt-20">
-                          Engitech is the partner of choice for many of the world’s leading enterprises, SMEs and technology challengers. We help businesses elevate their value
-                          through custom software development, product design, QA and consultancy services.
-                        </p>
-                        <div className="button-box mt-5">
-                          <div className="hero-button">
-                            <div className="video-popup software-innovation-video-box">
-                              <a href="https://www.youtube.com/watch?v=9No-FiEInLA" className="single-popup-wrap video-link">
-                                <div className="video-content">
-                                  <div className="ht-popup-video video-button">
-                                    <div className="video-button__two">
-                                      <div className="video-play">
-                                        <span className="video-play-icon" />
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="video-text">How we work</div>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=========== About Company Area End ==========*/}
-
             {/*===========  feature-icon-wrapper  Start =============*/}
             <div className="feature-icon-wrapper section-space--ptb_100">
               <div className="container">
@@ -193,9 +62,9 @@ export default function Home() {
                   </div>
                   <div className="col-lg-4 col-md-4">
                     <div className="button--box text-left text-md-end">
-                      <a href="#" className="ht-btn ht-btn-md">
+                      <Link to="/company-contact-us" className="ht-btn ht-btn-md">
                         Talk to a consultant
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -213,7 +82,7 @@ export default function Home() {
                               <div className="content">
                                 <h5 className="heading"> Design and Development</h5>
                                 <div className="box-images-arrow">
-                                  <Link to="/solutions-AI-ML">
+                                  <Link to="/solutions-tech">
                                     <span className="button-text">Discover now</span>
                                     <i className="fas fa-arrow-right" />
                                   </Link>
@@ -370,39 +239,6 @@ export default function Home() {
               </div>
             </div>
             {/*===========  feature-icon-wrapper  End =============*/}
-
-            {/*=========== fun fact Wrapper Start ==========*/}
-            <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-3 col-sm-6 wow move-up">
-                    <div className="fun-fact--two text-center">
-                      <div className="fun-fact__count counter">120</div>
-                      <h6 className="fun-fact__text">Happy clients</h6>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6 wow move-up">
-                    <div className="fun-fact--two text-center">
-                      <div className="fun-fact__count counter">32</div>
-                      <h6 className="fun-fact__text">Finished projects</h6>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6 wow move-up">
-                    <div className="fun-fact--two text-center">
-                      <div className="fun-fact__count counter">73</div>
-                      <h6 className="fun-fact__text">Skilled Experts</h6>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6 wow move-up">
-                    <div className="fun-fact--two text-center">
-                      <div className="fun-fact__count counter">318</div>
-                      <h6 className="fun-fact__text">Media Posts</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*=========== fun fact Wrapper End ==========*/}
 
             {/*===========  Projects wrapper Start =============*/}
             <div className="projects-wrapper projectinfotechno-bg section-space--ptb_100">

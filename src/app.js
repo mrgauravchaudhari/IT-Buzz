@@ -29,6 +29,7 @@ import DataQualityAndGovernanceServices from './components/solutions/data-qualit
 import FinancialTechnologyServices from './components/solutions/financial-technology-solutions.jsx';
 import ReconciliationPlatformsServices from './components/solutions/reconciliation-platforms-solutions.jsx';
 import RegulatoryAndComplianceServices from './components/solutions/regulatory-compliance-solutions.jsx';
+import TechServices from './components/solutions/tech-services.jsx';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
           <Route path="/solutions-financial-technology" element={<FinancialTechnologyServices />} />
           <Route path="/solutions-reconciliation-platforms" element={<ReconciliationPlatformsServices />} />
           <Route path="/solutions-regulatory-and-compliance" element={<RegulatoryAndComplianceServices />} />
+          <Route path="/solutions-tech" element={<TechServices />} />
 
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/case-study-details" element={<CaseStudyDetails />} />
